@@ -5,6 +5,7 @@ import { ReactComponent as NxLogo } from '../public/nx-logo-white.svg';
 import './styles.<%= stylesExt %>';
 
 function CustomApp({ Component, pageProps }: AppProps) {
+  console.log("From Juang")
   return (
     <>
       <Head>
